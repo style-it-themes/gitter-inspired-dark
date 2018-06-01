@@ -788,6 +788,11 @@ div.textcomplete-wrapper ul.dropdown-menu a, ul.selectable a {
 	border-bottom-color: #ed1965 !important;
 }
 
+.community-create-people-list-item-remove-button {
+	background-color:rgba(92, 129, 186, .7) !important;
+	color: rgba(255,255,255,.7) !important;
+}
+
 .left-menu-search.active input {
 	color: #aaa !important;
 }
