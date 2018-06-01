@@ -316,6 +316,14 @@ a.room-item__container.active .room-item__title, a.room-item__container:hover .r
 	border-left:1px solid #333 !important
 }
 
+.trpToolbarHeaderItem {
+	color: #ddd !important;
+}
+
+.trpToolbarHeaderItem:hover {
+	color: #aaa !important;
+}
+
 .right-toolbar-region__footer {
 	background: -webkit-gradient(linear, left top, left bottom, from(rgba(56, 55, 54, 0)), color-stop(35%, #141414)) !important;
 	background: -webkit-linear-gradient(top, rgba(56, 55, 54, 0), #141414 35%) !important;
@@ -1046,6 +1054,43 @@ legend {
 legend small {
 	color: #aaa !important;
 }
+/*
+the default rule has more duplicates than a clone army.
+decide on the better I guess.
+*/
+.banner-wrapper .banner button {
+	border-radius: 3px !important;
+	padding: 4px 8px !important;
+}
+/*
+this is a goto bottom button and it overlaps with scrollar by default.
+Fix this overlap by adding a decent margin more or less equal to bottom.
+*/
+.banner-wrapper.bottom {
+	margin-right: 15px !important;
+}
+
+.banner-wrapper .banner button {
+	color: #ddd !important;
+	background-color: #333 !important;
+	border: 1px solid #666 !important;
+}
+
+.banner-wrapper .banner button:hover {
+	color: #ddd !important;
+	background-color: #333 !important;
+	border: 1px solid #666 !important;
+	filter: brightness(130%) !important;
+}
+
+.welcome-message-container a {
+	color: #5c81ba !important;
+}
+
+.welcome-message-container a:hover {
+	color: #5c81ba !important;
+	filter: brightness(130%) !important;
+}
 }
 
 @-moz-document domain("gitter.im") {
@@ -1394,28 +1439,6 @@ form.add-integration > button > img {
 
 .button-ruby--small:hover {
 	filter: brightness(80%) !important;
-}
-
-.trpHookItem .details:hover, .trpHookItem form:hover {
-	background: #292929 !important;
-}
-
-.trpHookItem form {
-	background: #292929 !important;
-	border: none !important;
-}
-
-.trpHookItem .details {
-	color: #999 !important;
-	background: #292929 !important;
-}
-
-h3 {
-	color: #ccc !important;
-}
-
-.trpHookItem .service {
-	color: #ddd !important;
 }
 
 /* Popover */
@@ -1824,6 +1847,28 @@ h1::after, h2::after {
 .gtrArchiveLogo .logo-container {
 	background-image: url('https://cdn02.gitter.im/_s/fd52102/images/logo-text-blue-pink.png');
 	filter: invert(100%) hue-rotate(180deg) contrast(50%) !important;
+}
+
+.trpHookItem .details:hover, .trpHookItem form:hover {
+	background: #292929 !important;
+}
+
+.trpHookItem form {
+	background: #292929 !important;
+	border: none !important;
+}
+
+.trpHookItem .details {
+	color: #999 !important;
+	background: #292929 !important;
+}
+
+h3 {
+	color: #ccc !important;
+}
+
+.trpHookItem .service {
+	color: #ddd !important;
 }
 }
 
