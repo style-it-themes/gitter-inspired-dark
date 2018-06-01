@@ -70,9 +70,13 @@ You will need to ideally:
 
 ## Screens
 
-![gitter](/screens/filename.png)
+![gitter home](/screens/Home-Gitter.png)
 
-![giiter](/screens/filename.png)
+![gitter explore](/screens/Explore-Gitter.png)
+
+![gitter explore](/screens/gitterHQ-Chat.png)
+
+:asterisk: More screenshots available in [screens directory](/screens) for your perusal.
 
 ## Installing
 
