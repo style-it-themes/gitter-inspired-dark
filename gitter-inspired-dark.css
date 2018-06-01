@@ -1,13 +1,22 @@
 @-moz-document domain("gitter.im") {
 /*! Name    : Gitter Inspired Dark */
 /*! Version : 1.00 beta */
-/*! Author  : style-it */
-/*! Repo    : https://github.com/style-it/gitter-inspired-dark */
-/*! License : CC-BY-SA-4.0 https://github.com/style-it/gitter-inspired-dark/LICENSE */
+/*! Author  : Style-it Themes by: the-j0k3r */
+/*! Repo    : https://github.com/style-it-themes/gitter-inspired-dark */
+/*! License : CC-BY-SA-4.0 https://github.com/style-it-themes/gitter-inspired-dark/LICENSE */
 /*! Type    : Main Chat Area */
 body {
+	background: #191919 !important;
 	background-image: none !important;
 	color: #eee !important;
+}
+
+::-webkit-selection {
+	background: #555 !important;
+}
+
+::-moz-selection {
+	background: #555 !important;
 }
 
 .fonts-loaded body {
@@ -1048,9 +1057,9 @@ legend small {
 
 @-moz-document domain("gitter.im") {
 /*! Name    : Gitter Inspired Dark */
-/*! Author  : style-it */
-/*! Repo    : https://github.com/style-it/gitter-inspired-dark */
-/*! License : CC-BY-SA-4.0 https://github.com/style-it/gitter-inspired-dark/LICENSE */
+/*! Author  : Style-it Themes by: the-j0k3r */
+/*! Repo    : https://github.com/style-it-themes/gitter-inspired-dark */
+/*! License : CC-BY-SA-4.0 https://github.com/style-it-themes/gitter-inspired-dark/LICENSE */
 /*! Type    : Modal  and PopOver */
 i, cite, em, var, dfn {
 	color: #ccc !important;
@@ -1239,6 +1248,21 @@ i, cite, em, var, dfn {
 	margin-right: 10px !important;
 }
 
+.button-pampas--small {
+	background: #333 !important;
+	color: #ccc !important;
+	border: 1px solid #555 !important;
+}
+
+.button-pampas--small:hover {
+	filter: brightness(130%) !important;
+}
+
+.service-sprite, .github-logo,
+form.add-integration > button > img {
+	filter: invert(100%) !important
+}
+
 .vcard-stats {
 	border-top: 1px solid #555 !important;
 	border-bottom: 1px solid #555 !important;
@@ -1376,10 +1400,7 @@ i, cite, em, var, dfn {
 }
 
 .button-ruby--small:hover {
-	background: #ed1965 !important;
-	color: #eee !important;
-	border: 1px solid #ed1965 !important;
-	filter: brightness(130%) !important;
+	filter: brightness(80%) !important;
 }
 
 .trpHookItem .details:hover, .trpHookItem form:hover {
@@ -1387,13 +1408,13 @@ i, cite, em, var, dfn {
 }
 
 .trpHookItem form {
-	background: #191919 !important;
+	background: #292929 !important;
 	border: none !important;
 }
 
 .trpHookItem .details {
 	color: #999 !important;
-	background: #191919 !important;
+	background: #292929 !important;
 }
 
 h3 {
@@ -1470,9 +1491,9 @@ h3 {
 
 @-moz-document domain("gitter.im") {
 /*! Name    : Gitter Inspired Dark */
-/*! Author  : style-it */
-/*! Repo    : https://github.com/style-it/gitter-inspired-dark */
-/*! License : CC-BY-SA-4.0 https://github.com/style-it/gitter-inspired-dark/LICENSE */
+/*! Author  : Style-it Themes by: the-j0k3r */
+/*! Repo    : https://github.com/style-it-themes/gitter-inspired-dark */
+/*! License : CC-BY-SA-4.0 https://github.com/style-it-themes/gitter-inspired-dark/LICENSE */
 /*! Type    : Gitter Home/Apps */
 #apps-panel {
 	background-color: #222 !important;
