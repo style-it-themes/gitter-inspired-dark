@@ -34,7 +34,7 @@ You will need to ideally:
   * K&R Example:
     ```css
     element[attr='value'] {
-    ··property: value;
+    -property: value;
     }
     ```
 
@@ -42,7 +42,7 @@ You will need to ideally:
     ```css
     element[property='value']
     {
-    ··property: value;
+    -property: value;
     }
     ```
 
@@ -55,10 +55,10 @@ You will need to ideally:
     element[attr='value']{ }
     ```
 
-  * 2 Space indentation
+  * 1 tab indentation
     ```css
     /* good */
-    ··property: value;
+    -property: value;
 
     /* bad */
     ····property: value;
