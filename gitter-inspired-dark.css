@@ -1,6 +1,6 @@
 @-moz-document domain("gitter.im") {
 /*! Name    : Gitter Inspired Dark */
-/*! Version : 1.00 beta */
+/*! Version : 1.0.1 beta */
 /*! Author  : Style-it Themes by: the-j0k3r */
 /*! Repo    : https://github.com/style-it-themes/gitter-inspired-dark */
 /*! License : CC-BY-SA-4.0 https://github.com/style-it-themes/gitter-inspired-dark/LICENSE */
@@ -101,17 +101,22 @@ a {
 
 .panel-footer__create-room, .panel-footer__button {
 	color: #ccc !important;
+	background: #333 !important;
 	border-color: #555 !important;
 }
 
 .panel-footer__create-room:hover {
 	color: #eee !important;
-	background: #333 !important;
+	background: #444 !important;
 	border-color: #666 !important;
 }
 
 .room-item__title {
 	color: #bbb !important;
+}
+
+.chat-header__group-avatar-upload-label, .room-item__avatar {
+	background-color: #ddd !important;
 }
 
 .left-menu-forum-category-item {
@@ -123,13 +128,18 @@ a {
 	color: #eee !important;
 }
 
-a.room-item__container.active .room-item__title, a.room-item__container:hover .room-item__title {
+a.room-item__container.active .room-item__title, a.room-item__container:hover
+.room-item__title {
 	color: #eee !important;
 }
 
 .chat-header {
 	background-image: none !important;
 	background-color: #191919 !important;
+}
+
+.chat-header__group-avatar-upload-label {
+	background-color: #ddd !important;
 }
 
 .chat-header__title, .chat-header__topic {
@@ -156,8 +166,7 @@ a.room-item__container.active .room-item__title, a.room-item__container:hover .r
 	background-color: rgba(0, 0, 0, .5) !important;
 }
 
-.chat-item__from,
-.mention {
+.chat-item__from, .mention {
 	color: #5c81ba !important;
 }
 
@@ -299,6 +308,7 @@ a.room-item__container.active .room-item__title, a.room-item__container:hover .r
 	background-color: #333 !important;
 	border: 1px solid #555 !important;
 	color: #5c81ba !important;
+	filter: brightness(130%) !important;
 }
 
 .gtrActivityItemText .mention:hover {
@@ -342,12 +352,12 @@ a.room-item__container.active .room-item__title, a.room-item__container:hover .r
 }
 
 .org-page-main {
-	background-color: #191919 !important
+	background-color: #222 !important
 }
 
 .org-page__header {
 	background-image: none !important;
-	background-color: #202020 !important;
+	background-color: #191919 !important;
 }
 
 .org-page__header-heading a {
@@ -359,11 +369,18 @@ a.room-item__container.active .room-item__title, a.room-item__container:hover .r
 	border-color: #555 !important;
 }
 
+.org-page__header-heading {
+	margin-top: -.4em !important;
+}
+
+.org-page__topic-item {
+	border-left: 4px solid #5c81ba !important;
+}
+
 .org-page__room-item, .org-page__topic-item {
 	border-top-color: #555 !important;
 	border-right-color: #555 !important;
 	border-bottom-color: #555 !important;
-	border-left: 4px solid #5c81ba !important;
 }
 
 .org-page__room-item-heading, .org-page__topic-item-heading {
@@ -380,7 +397,7 @@ a.room-item__container.active .room-item__title, a.room-item__container:hover .r
 
 .org-page__room-item__tag-item {
 	background-color: #444 !important;
-	color: #dedddc !important;
+	color: #ddd !important;
 }
 
 .org-page__pagination a {
@@ -389,12 +406,12 @@ a.room-item__container.active .room-item__title, a.room-item__container:hover .r
 }
 
 .org-page__pagination a:hover {
-	background-color: #464444;
-	color: #dedddc
+	background-color: #444 !important;
+	color: #ddd !important;
 }
 
 .org-page__pagination .active a {
-	background-color: #464444 !important;
+	background-color: #444 !important;
 	color: inherit !important
 }
 
@@ -485,7 +502,7 @@ a.room-item__container.active .room-item__title, a.room-item__container:hover .r
 }
 
 .container--topic-header {
-	background-color: #222
+	background-color: #222 !important
 }
 
 .topic-header__title {
@@ -493,35 +510,35 @@ a.room-item__container.active .room-item__title, a.room-item__container:hover .r
 }
 
 .panel--topic-body {
-	background-color: #222;
-	border-color: #222
+	background-color: #222 !important;
+	border-color: #444 !important
 }
 
 .topic-body__content {
-	color: #ccc
+	color: #ccc !important
 }
 
 .topic-body__content a {
-	color: #46bc99
+	color: #46bc99 !important
 }
 
 .topic-body__content a:visited {
-	color: #29735d
+	color: #29735d !important
 }
 
 .topic-reply-list-header__heading {
-	color: #dedddc
+	color: #ccc !important;
 }
 
 .topic-reply-list-header__filter-button {
-	color: #dedddc
+	color: #ccc !important;
 }
 
 .panel--reply-list-header, .panel--topic-reply-list {
-	background-color: #292929 !important
+	background-color: #191919 !important
 }
 
-.feed-item__content {
+.feed-item__content__header__sent, .feed-item__content {
 	background-color: #222 !important;
 	color: #ccc !important;
 }
@@ -534,9 +551,14 @@ a.room-item__container.active .room-item__title, a.room-item__container:hover .r
 	color: #aaa !important;
 }
 
+.icon-button-like, .icon-button-comment, .icon-button-watch,
+.icon-button-like:after, .icon-button-comment:after, .icon-button-watch:after {
+	color: #ccc !important;
+}
+
 .panel--reply-editor {
 	background-color: #222 !important;
-	border-color: #444 !important;
+	border-color: #333 !important;
 	color: #ccc !important;
 }
 
@@ -547,15 +569,16 @@ a.room-item__container.active .room-item__title, a.room-item__container:hover .r
 }
 
 .reply-comment-editor__editor {
-	background-color: #2d2c2c !important;
+	background-color: #121212 !important;
 	color: #ccc !important;
-	border-color: #222 !important;
+	border-color: #333 !important;
 }
 /*# sourceMappingURL=dark-theme.css.map */
 /* <ul>...</ul>  */
 /* <li>...</li>  */
 /* <a>...</a> */
 /* <li class="divider"></li>  */
+.textcomplete-wrapper .dropdown-menu,
 .dropdown {
 	min-width: 25rem !important;
 	margin: 0 !important;
@@ -574,8 +597,7 @@ a.room-item__container.active .room-item__title, a.room-item__container:hover .r
 
 .dropdown__item--negative:hover {
 	background: rgb(211, 23, 92);
-	color: #ed1965;
-	cursor: pointer;
+	color: #ed1965 !important;
 }
 
 .dropdown__divider {
@@ -584,11 +606,11 @@ a.room-item__container.active .room-item__title, a.room-item__container:hover .r
 
 div.textcomplete-wrapper ul.dropdown-menu li > a:hover {
 	color: #eee !important;
-	background-color: #5c81ba;
+	background-color: #5c81ba !important;
 }
 
 div.textcomplete-wrapper ul.dropdown-menu li > a:hover small {
-	color: rgba(255, 255, 255, .4)
+	color: #ccc !important;
 }
 
 div.textcomplete-wrapper ul.dropdown-menu li.active > a, ul.selectable li.active > a {
@@ -597,12 +619,11 @@ div.textcomplete-wrapper ul.dropdown-menu li.active > a, ul.selectable li.active
 }
 
 div.textcomplete-wrapper ul.dropdown-menu li.active > a small, ul.selectable li.active > a small {
-	color: rgba(255, 255, 255, .4)
+	color: rgba(255, 255, 255, .4) !important;
 }
 
 div.textcomplete-wrapper ul.dropdown-menu small, ul.selectable small {
-	font-size: smaller;
-	color: rgba(85, 85, 85, .4)
+	color: #aaa !important;
 }
 
 div.textcomplete-wrapper ul.dropdown-menu .divider, ul.selectable .divider {
@@ -777,6 +798,13 @@ div.textcomplete-wrapper ul.dropdown-menu a, ul.selectable a {
 
 .left-menu-search:after {
 	background-color: rgba(255, 255, 255, .3) !important;
+}
+
+.left-menu-search__input {
+	color: #eee !important;
+	border: 0 !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
 }
 
 .community-invite-people-email-input:focus,
@@ -1052,7 +1080,7 @@ legend {
 }
 
 legend small {
-	color: #aaa !important;
+	color: #ccc !important;
 }
 /*
 the default rule has more duplicates than a clone army.
@@ -1090,6 +1118,13 @@ Fix this overlap by adding a decent margin more or less equal to bottom.
 .welcome-message-container a:hover {
 	color: #5c81ba !important;
 	filter: brightness(130%) !important;
+}
+
+/* double check this entry */
+input, select, .uneditable-input {
+	 color: #bd0707 !important;
+	 border: 1px solid #ccc !important;
+	 border-radius:3px !important;
 }
 }
 
@@ -1502,6 +1537,29 @@ form.add-integration > button > img {
 
 .popover.left .arrow:after {
 	border-left-color: #191919 !important;
+}
+}
+
+@-moz-document domain("gitter.im") {
+/*! Name    : Gitter Inspired Dark */
+/*! Author  : Style-it Themes by: the-j0k3r */
+/*! Repo    : https://github.com/style-it-themes/gitter-inspired-dark */
+/*! License : CC-BY-SA-4.0 https://github.com/style-it-themes/gitter-inspired-dark/LICENSE */
+/*! Type    : Integrations */
+
+/* Github */
+.item {
+	background-color: rgba(40, 208, 122, 0.1) !important;
+	border: 1px solid #444 !important;
+}
+
+.item.selected {
+	background-color: rgba(40, 208, 122, 0.8) !important;
+	border-color: rgba(40, 208, 122, 0.8) !important;
+}
+
+.repo-label img {
+	border: 1px solid #444 !important;
 }
 }
 
