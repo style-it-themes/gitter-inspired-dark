@@ -1,6 +1,6 @@
 @-moz-document domain("gitter.im") {
 /*! Name    : Gitter Inspired Dark */
-/*! Version : 1.0.1 beta */
+/*! Version : 1.0.2 beta */
 /*! Author  : Style-it Themes by: the-j0k3r */
 /*! Repo    : https://github.com/style-it-themes/gitter-inspired-dark */
 /*! License : CC-BY-SA-4.0 https://github.com/style-it-themes/gitter-inspired-dark/LICENSE */
@@ -800,6 +800,28 @@ div.textcomplete-wrapper ul.dropdown-menu a, ul.selectable a {
 	background-color: rgba(255, 255, 255, .3) !important;
 }
 
+.community-creation-slug-input {
+	border-color: #ed1965 !important;
+	border-top: 0 !important;
+	border-right: 0 !important;
+	border-left: 0 !important;
+}
+
+.primary-community-name-input {
+	border-bottom: 3.5px solid #ed1965 !important;
+	border-top: 0 !important;
+	border-right: 0 !important;
+	border-left: 0 !important;
+}
+
+.community-create-general-link {
+	color: #5c81ba !important;
+}
+
+.community-create-general-link:hover {
+	filter: brightness(130%) !important;
+}
+
 .left-menu-search__input {
 	color: #eee !important;
 	border: 0 !important;
@@ -1009,15 +1031,26 @@ option {
 }
 
 #communities-panel h1 {
-	color: #7d7669 !important;
+	color: #aaa !important;
 }
 
 .error {
 	color: #888 !important;
 }
 
-.error-input {
+.error-input, .error-input:focus {
 	color: #aaa !important;
+	border: none !important;
+	box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+}
+
+#upgrade {
+	color: #5c81ba !important;
+}
+
+#upgrade:hover {
+	filter: brightness(130%) !important;
 }
 
 pre code {
@@ -1211,6 +1244,16 @@ i, cite, em, var, dfn {
 	color: #ddd !important;
 }
 
+.create-room-name-input {
+	background: #111 !important;
+	border: 1px solid #555 !important;
+	color: #ddd !important;
+}
+
+.create-room-detail-section, .create-room-security-section {
+	border-top: 1px solid #444 !important;
+}
+
 /* FIXME, @import is not working
  * The @import is defining the mixin below where we use it and it is causing errors
  * so we just dump it here */
@@ -1225,8 +1268,7 @@ i, cite, em, var, dfn {
 }
 
 .modal--default__footer__btn:hover, .modal--default__footer__btn:focus {
-	background-color: #6b9ae2 !important;
-	border-color: #5c81ba !important;
+	filter: brightness(130%) !important;
 }
 
 .modal--default__footer__btn.disabled, .modal--default__footer__btn[disabled] {
@@ -1349,13 +1391,15 @@ form.add-integration > button > img {
 .trpBtnGreen {
 	background-color: #163  !important;
 	color: #eee !important;
-	border-bottom: 2px solid #1a1a1a !important;
+	border-bottom: 2px solid #1a1 !important;
+	border: 1px solid #1a1 !important;
 }
 
 .trpBtnGreen:hover, .trpBtnGreen:focus {
 	background-color: #163  !important;
 	color: #eee !important;
-	border-bottom: 2px solid #1a1a1a !important;
+	border-bottom: 2px solid #1a1 !important;
+	border: 1px solid #1a1 !important;
 	filter: brightness(130%) !important;
 }
 
@@ -1550,7 +1594,13 @@ form.add-integration > button > img {
 /* Github */
 .item {
 	background-color: rgba(40, 208, 122, 0.1) !important;
-	border: 1px solid #444 !important;
+	border: 1px solid #163 !important;
+}
+
+.item:hover {
+	background-color: rgba(40, 208, 122, 0.1) !important;
+	border: 1px solid #163 !important;
+	filter: brightness(130%) !important;
 }
 
 .item.selected {
@@ -1559,7 +1609,11 @@ form.add-integration > button > img {
 }
 
 .repo-label img {
-	border: 1px solid #444 !important;
+	border: 1px solid #555 !important;
+}
+
+.lighten {
+	opacity: 0.8;
 }
 }
 
@@ -1738,6 +1792,22 @@ form.add-integration > button > img {
 	color: #eee !important;
 }
 
+#integrations-panel p {
+	color: #aaa !important;
+}
+
+#integrations-panel a {
+	color: #5c81ba !important;
+}
+
+#integrations-panel a:hover {
+	filter: brightness(130%) !important;
+}
+
+#integrations-panel .loves {
+	filter: brightness(130%) !important;
+}
+
 #testimonials-panel {
 	background: #ea9448 !important;
 }
@@ -1849,7 +1919,6 @@ h1::after, h2::after {
 	color: #ddd !important;
 }
 
-.create-room-name-input,
 .permissions-people-input,
 .chat-header__topic .topic-input {
 	background: #111 !important;
