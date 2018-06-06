@@ -1,6 +1,6 @@
 @-moz-document domain("gitter.im") {
 /*! Name    : Gitter Inspired Dark */
-/*! Version : 1.0.2 beta */
+/*! Version : 1.0.3 beta */
 /*! Author  : Style-it Themes by: the-j0k3r */
 /*! Repo    : https://github.com/style-it-themes/gitter-inspired-dark */
 /*! License : CC-BY-SA-4.0 https://github.com/style-it-themes/gitter-inspired-dark/LICENSE */
@@ -986,7 +986,7 @@ input:focus {
 */
 
 select {
-	border: 1px solid #888 !important;
+	border: 1px solid #555 !important;
 	background-color: #000 !important;
 	color: #ccc !important;
 }
@@ -1153,12 +1153,13 @@ Fix this overlap by adding a decent margin more or less equal to bottom.
 	filter: brightness(130%) !important;
 }
 
-/* double check this entry */
+/* double check this entry
 input, select, .uneditable-input {
-	 color: #bd0707 !important;
-	 border: 1px solid #ccc !important;
+	 color: #ccc !important;
+	 border: 1px solid #555 !important;
 	 border-radius:3px !important;
 }
+*/
 }
 
 @-moz-document domain("gitter.im") {
@@ -1240,7 +1241,7 @@ i, cite, em, var, dfn {
 }
 
 #notification-options > optgroup {
-	background: #333 !important;
+	background: #444 !important;
 	color: #ddd !important;
 }
 
@@ -1391,28 +1392,26 @@ form.add-integration > button > img {
 .trpBtnGreen {
 	background-color: #163  !important;
 	color: #eee !important;
-	border-bottom: 2px solid #1a1 !important;
-	border: 1px solid #1a1 !important;
+	border-bottom: none !important;
 }
 
 .trpBtnGreen:hover, .trpBtnGreen:focus {
 	background-color: #163  !important;
 	color: #eee !important;
-	border-bottom: 2px solid #1a1 !important;
-	border: 1px solid #1a1 !important;
+	border-bottom: none !important;
 	filter: brightness(130%) !important;
 }
 
 .trpBtnGrey {
 	background-color: #999 !important;
 	color: #000 !important;
-	border-bottom: 2px solid #1a1a1a !important;
+	border-bottom: none !important;
 }
 
 .trpBtnGrey:hover {
 	background-color: #999 !important;
 	color: #000 !important;
-	border-bottom: 2px solid #1a1a1a !important;
+	border-bottom: none !important;
 	filter: brightness(130%) !important;
 }
 
@@ -1420,40 +1419,40 @@ form.add-integration > button > img {
 .trpBtnLightGrey {
 	background-color: #aaa !important;
 	color: black !important;
-	border-bottom: 2px solid #1a1a1a !important;
+	border-bottom: none !important;
 }
 
 .trpBtnLightGrey.open-profile:hover,
 .trpBtnLightGrey:hover {
 	background-color: #aaa !important;
 	color: black !important;
-	border-bottom: 2px solid #1a1a1a !important;
+	border-bottom: none !important;
 	filter: brightness(130%) !important;
 }
 
 .trpBtnLightBlue {
 	background-color: #2980b9 !important;
 	color: black !important;
-	border-bottom: 2px solid #222 !important;
+	border-bottom: none !important;
 }
 
 .trpBtnLightBlue:hover {
 	background-color: #2980b9 !important;
 	color: black !important;
-	border-bottom: 2px solid #222 !important;
+	border-bottom: none !important;
 	filter: brightness(130%) !important;
 }
 
 .trpBtnBlue.open-in-github, .trpBtnBlue {
 	background-color: #273045 !important;
 	color: #ccc !important;
-	border-bottom: 2px solid #222 !important;
+	border-bottom: none !important;
 }
 
 .trpBtnBlue.open-in-github:hover, .trpBtnBlue:hover {
 	background-color: #273045 !important;
 	color: #ccc !important;
-	border-bottom: 2px solid #222 !important;
+	border-bottom: none !important;
 	filter: brightness(130%) !important;
 }
 
@@ -1469,39 +1468,39 @@ form.add-integration > button > img {
 .trpBtnWhite {
 	background-color: #ccc !important;
 	color: #333 !important;
-	border-bottom: 2px solid #ccc !important;
+	border-bottom: none !important;
 }
 
 .trpBtnWhite:hover {
 	background-color: #ccc !important;
 	color: #333 !important;
-	border-bottom: 2px solid #ccc !important;
+	border-bottom: none !important;
 	filter: brightness(130%) !important;
 }
 
 .trpBtnRed {
 	background: #300 !important;
 	color: #eee !important;
-	border-bottom: 2px solid #1a1a1a !important;
+	border-bottom: none !important;
 }
 
 .trpBtnRed:hover {
 	background: #300 !important;
 	color: #eee !important;
-	border-bottom: 2px solid #1a1a1a !important;
+	border-bottom: none !important;
 	filter: brightness(130%) !important;
 }
 
 .trpBtnOrange {
 	background-color: #f3582c !important;
 	color: #eee !important;
-	border-bottom: 2px solid #1a1a1a !important;
+	border-bottom: none !important;
 }
 
 .trpBtnOrange:hover {
 	background-color: #f3582c !important;
 	color: #eee !important;
-	border-bottom: 2px solid #1a1a1a !important;
+	border-bottom: none !important;
 	filter: brightness(130%) !important;
 }
 
