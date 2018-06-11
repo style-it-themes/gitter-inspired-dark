@@ -1,6 +1,7 @@
 <p align="center">
-  <img alt="style-it-themes-logo" src="https://cdn.rawgit.com/style-it-themes/style-it-themes-logos/master/style-it-themes-logo-full.svg" width="580">
+  <img alt="style-it-themes-logo" src="https://cdn.rawgit.com/style-it-themes/style-it-themes-logos/29f8d2f32faa0e5e1ba3cc64955fde3d0b90ea64/style-it-themes-logo-full.svg" width="580">
 </p>
+<br>
 <h2 align="center"><strong>Gitter Inspired Dark</strong></h2>
 
 ## About
@@ -32,9 +33,9 @@ You will need to ideally:
 
 * [Fork](https://github.com/style-it-themes/gitter-inspired-dark/fork) the project.
 
-* Limit to the [K&R Style](https://en.wikipedia.org/wiki/Indentation_style#K.26R), and **1 TAB INDENTATION** (not more, and not less than 1 tab).
+* Limit to the [K&R (KNF variation style)](https://en.wikipedia.org/wiki/Indentation_style#Variant:_BSD_KNF), and **1 TAB INDENTATION** (not more, and not less than 1 tab).
 
-  * K&R Example:
+  * K&R - KNF Variation Example:
     ```css
     element[attr='value'] {
     -property: value;
@@ -91,8 +92,6 @@ You will need to ideally:
     * [userstyles.org](https://userstyles.org/styles/160316)
     * or, add it [manually](https://raw.githubusercontent.com/style-it-themes/gitter-inspired-dark/master/gitter-inspired-dark.css) into the editor.
       * Please refer to the [installation documentation](https://github.com/style-it-themes/gitter-inspired-dark/wiki/Install) for more details.
- <!--
 * Or, **[install directly](https://github.com/style-it-themes/gitter-inspired-dark/raw/master/gitter-inspired-dark.user.css)** from this repository by opening the user.css file; only available using Stylus or FreeStyler (see the [documentation](https://github.com/openstyles/stylus/wiki/Usercss)). :tada:
--->
 
 [![CC--BY--SA--4.0](https://img.shields.io/badge/License-%20CC--BY--SA--4.0%20-blue.svg)](LICENSE)
