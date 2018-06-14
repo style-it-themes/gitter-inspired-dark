@@ -2,7 +2,7 @@
 @name         Gitter Inspired Dark
 @namespace    Style-it Themes
 @homepageURL  https://github.com/style-it-themes/gitter-inspired-dark
-@version      1.0.4
+@version      1.0.5
 @updateURL    https://raw.githubusercontent.com/style-it-themes/gitter-inspired-dark/master/gitter-inspired-dark.user.css
 @description  The *Gitter Inspired Dark* theme is a Gitter instant messaging service dark style,
 that refines styling throughout all elements and areas.
@@ -11,7 +11,7 @@ that refines styling throughout all elements and areas.
 ==/UserStyle== */
 @-moz-document domain("gitter.im") {
 	/*! Name    : Gitter Inspired Dark */
-	/*! Version : 1.0.4 beta */
+	/*! Version : 1.0.5 beta */
 	/*! Author  : Style-it Themes by: the-j0k3r */
 	/*! Repo    : https://github.com/style-it-themes/gitter-inspired-dark */
 	/*! License : CC-BY-SA-4.0 https://github.com/style-it-themes/gitter-inspired-dark/LICENSE */
@@ -238,6 +238,7 @@ that refines styling throughout all elements and areas.
 	.chat-input__text-area, .trpChatInput {
 		background-color: #222 !important;
 		color: #ccc !important;
+		box-shadow: inset 1px 1px 3px #000 !important;
 	}
 
 	.chat-input__button-icon {
@@ -501,7 +502,7 @@ that refines styling throughout all elements and areas.
 	}
 
 	.topics-table-body__row:nth-child(even) {
-		background-color: #444 !important;
+		background-color: #333 !important;
 	}
 
 	.topics-table-body__cell__link {
@@ -562,21 +563,57 @@ that refines styling throughout all elements and areas.
 		color: #aaa !important;
 	}
 
-	.icon-button-like, .icon-button-comment, .icon-button-watch,
-	.icon-button-like:after, .icon-button-comment:after, .icon-button-watch:after {
+	.icon-button-like, .icon-button-comment, .icon-button-watch, .icon-edit {
 		color: #ccc !important;
+	}
+
+	.icon-button-like:after, .icon-button-comment:after, .icon-button-watch:after,
+	.icon-button-edit:after {
+		filter: grayscale(100%) !important;
+	}
+
+	.icon-edit-selected, .icon-button-edit:hover::after {
+		filter: brightness(145%) !important;
 	}
 
 	.panel--reply-editor {
 		background-color: #222 !important;
 		border-color: #333 !important;
 		color: #ccc !important;
+		box-shadow: inset 1px 1px 3px #000 !important;
 	}
 
 	.editor--reply {
 		background-color: #191919 !important;
 		border-color: #444 !important;
 		color: #ccc !important;
+		box-shadow: inset 1px 1px 3px #000 !important;
+	}
+
+	.editable-content__editor {
+		background-color: #191919 !important;
+	}
+
+	.editable-content__editor textarea {
+		background-color: #191919 !important;
+		border-color: #444 !important;
+		color: #ccc !important;
+		box-shadow: inset 1px 1px 3px #000 !important;
+	}
+
+	.editable-content__cancel, .editable-content__delete {
+		background-color: transparent !important;
+		border: 1px solid #191919 !important;
+		color: #aaa !important;
+	}
+
+	.editable-content__save {
+		background-color: #444 !important;
+		color: #eee !important;
+	}
+
+	.editable-content__save:hover {
+		filter: brightness(120%) !important;
 	}
 
 	.reply-comment-editor__editor {
@@ -1064,8 +1101,12 @@ that refines styling throughout all elements and areas.
 		filter: brightness(130%) !important;
 	}
 
-	pre code {
-		background: #111 !important;
+	pre code, .editable-content code, .topic-body__content code {
+		background: #141414 !important;
+	}
+
+	.feed-item__content__item code, code, .chat-item code {
+		border: 1px solid #555 !important;
 	}
 
 	.button-caribbean--small {
