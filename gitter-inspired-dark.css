@@ -1,6 +1,6 @@
 @-moz-document domain("gitter.im") {
 	/*! Name    : Gitter Inspired Dark */
-	/*! Version : 1.0.5 beta */
+	/*! Version : 1.0.6 beta */
 	/*! Author  : Style-it Themes by: the-j0k3r */
 	/*! Repo    : https://github.com/style-it-themes/gitter-inspired-dark */
 	/*! License : CC-BY-SA-4.0 https://github.com/style-it-themes/gitter-inspired-dark/LICENSE */
@@ -1684,12 +1684,10 @@
 		background-color: none !important;
 	}
 
-	.explore-header-info-bar__mobile-diagram i:before {
-		background-color:  none !important;
-	}
 
-	.explore-header-info-bar__mobile-diagram i:after {
-		background-color: #191919 !important;
+	.explore-header-info-bar__mobile-diagram i::before,
+	.explore-header-info-bar__mobile-diagram i::after {
+		background-color:  transparent !important;
 	}
 
 	.explore-room-card-list-section {
