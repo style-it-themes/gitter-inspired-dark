@@ -10,9 +10,10 @@ addressed.
 
 * **HTML of the section where the issue occurs**:
 
-<!-- You can get the HTML by right click on the element, look for the
-     highlighted node in the DevTools, right click it and select
-     Copy -> Outer HTML
+<!--
+	You can get the HTML by right clicking on the element, look for the
+	highlighted node in the DevTools, right click it and select
+	Copy -> Outer HTML
 -->
 
 ````html
