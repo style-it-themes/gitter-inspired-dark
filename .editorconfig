@@ -16,3 +16,5 @@ block_comment_end = */
 
 [*.md]
 trim_trailing_whitespace = false
+block_comment_start = <!--
+block_comment_end = -->
