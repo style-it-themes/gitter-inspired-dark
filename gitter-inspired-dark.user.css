@@ -2,7 +2,7 @@
 @name         Gitter Inspired Dark
 @namespace    Style-it Themes
 @homepageURL  https://github.com/style-it-themes/gitter-inspired-dark
-@version      1.0.6
+@version      1.0.7
 @updateURL    https://raw.githubusercontent.com/style-it-themes/gitter-inspired-dark/master/gitter-inspired-dark.user.css
 @description  The *Gitter Inspired Dark* theme is a Gitter instant messaging service dark style,
 that refines styling throughout all elements and areas.
@@ -11,7 +11,7 @@ that refines styling throughout all elements and areas.
 ==/UserStyle== */
 @-moz-document domain("gitter.im") {
 	/*! Name    : Gitter Inspired Dark */
-	/*! Version : 1.0.6 beta */
+	/*! Version : 1.0.7 beta */
 	/*! Author  : Style-it Themes by: the-j0k3r */
 	/*! Repo    : https://github.com/style-it-themes/gitter-inspired-dark */
 	/*! License : CC-BY-SA-4.0 https://github.com/style-it-themes/gitter-inspired-dark/LICENSE */
@@ -40,7 +40,6 @@ that refines styling throughout all elements and areas.
 
 	.chat-item code, .topic-body__content code {
 		background-color: #141414 !important;
-		padding: .2rem .5rem !important;
 	}
 
 	.room-menu-options__item--header-spacer {
@@ -52,7 +51,8 @@ that refines styling throughout all elements and areas.
 		border-right: 1px solid #191919 !important;
 	}
 
-	.room-menu-options__item__unread-indicator, .room-menu-options__item__unread-indicator.has-mentions {
+	.room-menu-options__item__unread-indicator,
+	.room-menu-options__item__unread-indicator.has-mentions {
 		border: 2px solid #777 !important
 	}
 
@@ -418,12 +418,17 @@ that refines styling throughout all elements and areas.
 	}
 
 	.org-page__pagination a:hover {
-		background-color: #444 !important;
+		background-color: #5c81ba !important;
 		color: #ddd !important;
 	}
 
+	.pagination .disabled a, .pagination .disabled a:hover {
+		color: #aaa !important;
+		background-color: transparent !important;
+	}
+
 	.org-page__pagination .active a {
-		background-color: #444 !important;
+		background-color: #5c81ba !important;
 		color: inherit !important
 	}
 
@@ -434,22 +439,22 @@ that refines styling throughout all elements and areas.
 	}
 
 	.chat-input__btn {
-		background: #5c81ba  !important;
+		background: #5c81ba !important;
 		color: #eee !important;
 	}
 
 	.org-page__topic-list-heading {
 		color: #aaa !important;
-		font-weight: 300 !important;
 	}
 
 	.secondary-button-jaffa--small, .secondary-button-caribbean--xsmall {
-		color:  #5c81ba !important;
+		color: #5c81ba !important;
 	}
 
 	.secondary-button-jaffa--small:hover, .secondary-button-jaffa--small:focus,
-	.secondary-button-caribbean--xsmall:hover, .secondary-button-caribbean--xsmall:focus {
-		color:  #5c81ba !important;
+	.secondary-button-caribbean--xsmall:hover,
+	.secondary-button-caribbean--xsmall:focus {
+		color: #5c81ba !important;
 		filter: brightness(130%) !important;
 	}
 
@@ -567,8 +572,8 @@ that refines styling throughout all elements and areas.
 		color: #ccc !important;
 	}
 
-	.icon-button-like:after, .icon-button-comment:after, .icon-button-watch:after,
-	.icon-button-edit:after {
+	.icon-button-like:after, .icon-button-comment:after,
+	.icon-button-watch:after, .icon-button-edit:after {
 		filter: grayscale(100%) !important;
 	}
 
@@ -622,19 +627,10 @@ that refines styling throughout all elements and areas.
 		border-color: #333 !important;
 	}
 	/*# sourceMappingURL=dark-theme.css.map */
-	/* <ul>...</ul>  */
-	/* <li>...</li>  */
-	/* <a>...</a> */
-	/* <li class="divider"></li>  */
 	.textcomplete-wrapper .dropdown-menu,
 	.dropdown {
-		min-width: 25rem !important;
-		margin: 0 !important;
-		padding: .2em 0 !important;
 		background: #222 !important;
 		border: 1px solid #555 !important;
-		border-radius: .7rem !important;
-		list-style: none !important;
 		box-shadow: -.1em .1em .4em rgba(0, 0, 0, .3) !important;
 	}
 
@@ -661,12 +657,14 @@ that refines styling throughout all elements and areas.
 		color: #ccc !important;
 	}
 
-	div.textcomplete-wrapper ul.dropdown-menu li.active > a, ul.selectable li.active > a {
+	div.textcomplete-wrapper ul.dropdown-menu li.active > a,
+	ul.selectable li.active > a {
 		color: #eee !important;
 		background-color: #5c81ba !important;
 	}
 
-	div.textcomplete-wrapper ul.dropdown-menu li.active > a small, ul.selectable li.active > a small {
+	div.textcomplete-wrapper ul.dropdown-menu li.active > a small,
+	ul.selectable li.active > a small {
 		color: rgba(255, 255, 255, .4) !important;
 	}
 
@@ -720,8 +718,6 @@ that refines styling throughout all elements and areas.
 	}
 
 	.tooltip.top .tooltip-arrow {
-		bottom: 0 !important;
-		left: 50% !important;
 		margin-left: -5px !important;
 		border-left: 5px solid transparent !important;
 		border-right: 5px solid transparent !important;
@@ -729,27 +725,18 @@ that refines styling throughout all elements and areas.
 	}
 
 	.tooltip.left .tooltip-arrow {
-		top: 50% !important;
-		right: 0 !important;
-		margin-top: -5px!important;
 		border-top: 5px solid transparent !important;
 		border-bottom: 5px solid transparent !important;
 		border-left: 5px solid #eee !important;
 	}
 
 	.tooltip.bottom .tooltip-arrow {
-		top: 0 !important;
-		left: 50% !important;
-		margin-left: -5px !important;
 		border-left: 5px solid transparent !important;
 		border-right: 5px solid transparent !important;
 		border-bottom: 5px solid #eee !important;
 	}
 
 	.tooltip.right .tooltip-arrow {
-		top: 50% !important;
-		left: 0 !important;
-		margin-top: -5px !important;
 		border-top: 5px solid transparent !important;
 		border-bottom: 5px solid transparent !important;
 		border-right: 5px solid #eee !important;
@@ -759,11 +746,7 @@ that refines styling throughout all elements and areas.
 		max-width: 200px !important;
 		padding: 3px 8px !important;
 		color: #000 !important;
-		white-space: pre !important;
-		text-align: center !important;
-		text-decoration: none !important;
 		background-color: #eee !important;
-		border-radius: 4px !important;
 	}
 
 	.nano > .nano-pane {
@@ -814,14 +797,17 @@ that refines styling throughout all elements and areas.
 		filter: brightness(130%) !important;
 	}
 
-	.subdued-button-jaffa--small.disabled, .subdued-button-jaffa--small[disabled] {
+	.subdued-button-jaffa--small.disabled,
+	.subdued-button-jaffa--small[disabled] {
 		background-color: rgba(0, 0, 0, 0);
 		border-color: rgba(0, 0, 0, 0);
 		color: #5c81ba99 !important;
 	}
 
-	.subdued-button-jaffa--small.disabled:hover, .subdued-button-jaffa--small.disabled:focus,
-	.subdued-button-jaffa--small[disabled]:hover, .subdued-button-jaffa--small[disabled]:focus {
+	.subdued-button-jaffa--small.disabled:hover,
+	.subdued-button-jaffa--small.disabled:focus,
+	.subdued-button-jaffa--small[disabled]:hover,
+	.subdued-button-jaffa--small[disabled]:focus {
 		background-color: rgba(0, 0, 0, 0);
 		border-color: rgba(0, 0, 0, 0);
 	}
@@ -883,7 +869,7 @@ that refines styling throughout all elements and areas.
 	.community-creation-slug-input:focus,
 	.left-menu-search__input:focus {
 		color: #eee !important;
-		border-color: 0 !important;
+		border-color: transparent !important;
 		-webkit-box-shadow: none !important;
 		box-shadow: none !important;
 	}
@@ -922,8 +908,8 @@ that refines styling throughout all elements and areas.
 	}
 
 	.topic-search__beta-decoration {
-		background-color: #777 !important;
-		color: #eee !important;
+		background-color: #53af94 !important;
+		color: #fff !important;
 	}
 
 	.panel--category {
@@ -999,8 +985,10 @@ that refines styling throughout all elements and areas.
 		border-color: #444 !important;
 	}
 
-	.category-list__item--active.disabled, .category-list__item--active[disabled],
-	.topic-control__button--active.disabled, .topic-control__button--active[disabled],
+	.category-list__item--active.disabled,
+	.category-list__item--active[disabled],
+	.topic-control__button--active.disabled,
+	.topic-control__button--active[disabled],
 	.topic-reply-list-header__filter-button--active.disabled,
 	.topic-reply-list-header__filter-button--active[disabled] {
 		background-color: rgba(242, 242, 242, 0.7) !important;
@@ -1009,10 +997,14 @@ that refines styling throughout all elements and areas.
 		cursor: not-allowed !important;
 	}
 
-	.category-list__item--active.disabled:hover, .category-list__item--active.disabled:focus,
-	.category-list__item--active[disabled]:hover, .category-list__item--active[disabled]:focus,
-	.topic-control__button--active.disabled:hover, .topic-control__button--active.disabled:focus,
-	.topic-control__button--active[disabled]:hover, .topic-control__button--active[disabled]:focus,
+	.category-list__item--active.disabled:hover,
+	.category-list__item--active.disabled:focus,
+	.category-list__item--active[disabled]:hover,
+	.category-list__item--active[disabled]:focus,
+	.topic-control__button--active.disabled:hover,
+	.topic-control__button--active.disabled:focus,
+	.topic-control__button--active[disabled]:hover,
+	.topic-control__button--active[disabled]:focus,
 	.topic-reply-list-header__filter-button--active.disabled:hover,
 	.topic-reply-list-header__filter-button--active.disabled:focus,
 	.topic-reply-list-header__filter-button--active[disabled]:hover,
@@ -1140,7 +1132,7 @@ that refines styling throughout all elements and areas.
 	}
 
 	.muted {
-		color: #999
+		color: #999 !important;
 	}
 
 	abbr {
@@ -1253,7 +1245,7 @@ that refines styling throughout all elements and areas.
 	}
 
 	.modal--default__empty-header {
-		background-image: url(https://cdn.rawgit.com/the-j0k3r/6807013e60fca2b875a883bca5295958/raw/b6e246b7aa5f22717ce45a77faf79597aefaa016/gitter-logo.svg) !important;
+		background-image: url('https://cdn.rawgit.com/the-j0k3r/6807013e60fca2b875a883bca5295958/raw/b6e246b7aa5f22717ce45a77faf79597aefaa016/gitter-logo.svg') !important;
 		background-repeat: no-repeat !important;
 		background-position: center center !important;
 		background-size: 14px 21px !important;
@@ -1269,6 +1261,10 @@ that refines styling throughout all elements and areas.
 
 	.permissions-people-list-item-remove-button .icon-g-cancel {
 		color: #ddd !important;
+	}
+
+	.permissions-people-list-item-remove-button:hover .icon-g-cancel {
+		color: #aaa !important;
 	}
 
 	.modal--default__content {
@@ -1324,7 +1320,8 @@ that refines styling throughout all elements and areas.
 		filter: brightness(130%) !important;
 	}
 
-	.modal--default__footer__btn.disabled, .modal--default__footer__btn[disabled] {
+	.modal--default__footer__btn.disabled,
+	.modal--default__footer__btn[disabled] {
 		background-color: rgba(92, 129, 186, .7) !important;
 		border-color: rgba(92, 129, 186, .7) !important;
 		color: rgba(255, 255, 255, 0.6) !important;
@@ -1467,15 +1464,13 @@ that refines styling throughout all elements and areas.
 		filter: brightness(130%) !important;
 	}
 
-	.trpBtnLightGrey.open-profile,
-	.trpBtnLightGrey {
+	.trpBtnLightGrey.open-profile, .trpBtnLightGrey {
 		background-color: #aaa !important;
 		color: black !important;
 		border-bottom: none !important;
 	}
 
-	.trpBtnLightGrey.open-profile:hover,
-	.trpBtnLightGrey:hover {
+	.trpBtnLightGrey.open-profile:hover, .trpBtnLightGrey:hover {
 		background-color: #aaa !important;
 		color: black !important;
 		border-bottom: none !important;
@@ -1691,11 +1686,7 @@ that refines styling throughout all elements and areas.
 		background-color: #222 !important;
 	}
 
-	.explore-header-info-bar__mobile-diagram {
-		background-color: none !important;
-	}
-
-
+	.explore-header-info-bar__mobile-diagram,
 	.explore-header-info-bar__mobile-diagram i::before,
 	.explore-header-info-bar__mobile-diagram i::after {
 		background-color:  transparent !important;
@@ -1968,26 +1959,23 @@ that refines styling throughout all elements and areas.
 		color: #ddd !important;
 	}
 
-	.permissions-people-input,
-	.chat-header__topic .topic-input {
+	.permissions-people-input, .chat-header__topic .topic-input {
 		background: #111 !important;
 		border: 1px solid #555 !important;
 		color: #ddd !important;
 	}
 
-	.tag-modal.modal-content,
-	.welcome-message-container textarea {
+	.tag-modal.modal-content, .welcome-message-container textarea {
 		background: #111 !important;
 		border: 1px solid #555 !important;
 	}
 
-	.tag-list-edit__input,
-	.welcome-message {
+	.tag-list-edit__input, .welcome-message {
 		color: #ddd !important;
 	}
 
 	.tag-list-edit__input:focus {
-		border-color: 0 !important;
+		border-color: transparent !important;
 		-webkit-box-shadow: none !important;
 		box-shadow: none !important;
 	}
@@ -2010,8 +1998,7 @@ that refines styling throughout all elements and areas.
 		color: #5c81ba !important;
 	}
 
-	.permissions-admin-list-wrapper,
-	.permissions-people-list {
+	.permissions-admin-list-wrapper, .permissions-people-list {
 		color: #ccc !important;
 		border-color: #444 !important;
 	}
