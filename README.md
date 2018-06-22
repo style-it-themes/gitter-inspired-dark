@@ -19,6 +19,20 @@ that refines styling throughout all elements and areas.
 :asterisk: Full coverage entails styled while using a free open source account,
 its not bug free, there possible are elements that were likely missed.
 
+## Installing
+
+##### Using a browser extension:
+
+* Stylus - get the addon for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) and [Opera](https://addons.opera.com/en-gb/extensions/details/stylus/).
+* Stylish - get the addon for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/2108/), [Chrome](https://chrome.google.com/extensions/detail/fjnbnpbmkenffdnngjfgmeleoegfcffe), [Opera](https://addons.opera.com/en/extensions/details/stylish/), [Safari](http://sobolev.us/stylish/) and [Firefox Mobile](https://addons.mozilla.org/en-US/firefox/addon/2108/).
+* FreeStyler is available for [Chrome](https://chrome.google.com/webstore/detail/freestyler/hihigldmabkodfpehkgdemjklmaebmca).  
+##### Then install this style using:  
+* [userstyles.org](https://userstyles.org/styles/160316)  
+* **[Click here](https://github.com/style-it-themes/gitter-inspired-dark/raw/master/gitter-inspired-dark.user.css)** to install directly from this repository.  
+>This is only available using Stylus or FreeStyler (see the [documentation](https://github.com/openstyles/stylus/wiki/Usercss)). :tada:
+* [manually](https://raw.githubusercontent.com/style-it-themes/gitter-inspired-dark/master/gitter-inspired-dark.css) into the editor.  
+>Please refer to the [installation documentation](https://github.com/style-it-themes/gitter-inspired-dark/wiki/Install) for more details.
+
 ## I Found a Bug
 
 At the first instance of finding a bug, have a look if there is already an open issue, if so add the required information as described in the [issue template](.github/ISSUE_TEMPLATE.md).
@@ -81,17 +95,5 @@ You will need to ideally:
 ![gitter explore](/screens/gitterHQ-Chat.png)
 
 :asterisk: More screenshots available in [screens directory](/screens) for your perusal.
-
-## Installing
-
-* If you're using a browser extension:
-  * Stylus - get the addon for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) and [Opera](https://addons.opera.com/en-gb/extensions/details/stylus/).
-  * Stylish - get the addon for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/2108/), [Chrome](https://chrome.google.com/extensions/detail/fjnbnpbmkenffdnngjfgmeleoegfcffe), [Opera](https://addons.opera.com/en/extensions/details/stylish/), [Safari](http://sobolev.us/stylish/) and [Firefox Mobile](https://addons.mozilla.org/en-US/firefox/addon/2108/).
-  * FreeStyler is available for [Chrome](https://chrome.google.com/webstore/detail/freestyler/hihigldmabkodfpehkgdemjklmaebmca).
-  * Then install this style using:
-	* [userstyles.org](https://userstyles.org/styles/160316)
-	* or, add it [manually](https://raw.githubusercontent.com/style-it-themes/gitter-inspired-dark/master/gitter-inspired-dark.css) into the editor.
-	  * Please refer to the [installation documentation](https://github.com/style-it-themes/gitter-inspired-dark/wiki/Install) for more details.
-* Or, **[install directly](https://github.com/style-it-themes/gitter-inspired-dark/raw/master/gitter-inspired-dark.user.css)** from this repository by opening the user.css file; only available using Stylus or FreeStyler (see the [documentation](https://github.com/openstyles/stylus/wiki/Usercss)). :tada:
 
 [![CC--BY--SA--4.0](https://img.shields.io/badge/License-%20CC--BY--SA--4.0%20-blue.svg)](LICENSE)
