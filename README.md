@@ -21,17 +21,18 @@ its not bug free, there possible are elements that were likely missed.
 
 ## Installing
 
-##### Using a browser extension:
+#### Using a browser extension:
 
 * Stylus - get the addon for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) and [Opera](https://addons.opera.com/en-gb/extensions/details/stylus/).
 * Stylish - get the addon for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/2108/), [Chrome](https://chrome.google.com/extensions/detail/fjnbnpbmkenffdnngjfgmeleoegfcffe), [Opera](https://addons.opera.com/en/extensions/details/stylish/), [Safari](http://sobolev.us/stylish/) and [Firefox Mobile](https://addons.mozilla.org/en-US/firefox/addon/2108/).
 * FreeStyler is available for [Chrome](https://chrome.google.com/webstore/detail/freestyler/hihigldmabkodfpehkgdemjklmaebmca).  
-##### Then install this style using:  
-* [userstyles.org](https://userstyles.org/styles/160316)  
-* **[Click here](https://github.com/style-it-themes/gitter-inspired-dark/raw/master/gitter-inspired-dark.user.css)** to install directly from this repository.  
->This is only available using Stylus or FreeStyler (see the [documentation](https://github.com/openstyles/stylus/wiki/Usercss)). :tada:
-* [manually](https://raw.githubusercontent.com/style-it-themes/gitter-inspired-dark/master/gitter-inspired-dark.css) into the editor.  
->Please refer to the [installation documentation](https://github.com/style-it-themes/gitter-inspired-dark/wiki/Install) for more details.
+#### Then install this style using:  
+:arrow_right: [userstyles.org](https://userstyles.org/styles/160316)  
+:arrow_right: [![INSTALL DIRECTLY WITH - STYLUS Stylus](https://img.shields.io/badge/Install_directly_with-Stylus-21d1d0.svg?longCache=true&style=for-the-badge)](https://github.com/style-it-themes/gitter-inspired-dark/raw/master/gitter-inspired-dark.user.css)** to install directly from this repository.  
+  >This is only available using Stylus or FreeStyler (see the [documentation](https://github.com/openstyles/stylus/wiki/Usercss)). :tada:
+
+:arrow_right: [Manually](https://raw.githubusercontent.com/style-it-themes/gitter-inspired-dark/master/gitter-inspired-dark.css) into the editor.  
+  >Please refer to the [installation documentation](https://github.com/style-it-themes/gitter-inspired-dark/wiki/Install) for more details.
 
 ## I Found a Bug
 
@@ -96,4 +97,4 @@ You will need to ideally:
 
 :asterisk: More screenshots available in [screens directory](/screens) for your perusal.
 
-[![CC--BY--SA--4.0](https://img.shields.io/badge/License-%20CC--BY--SA--4.0%20-blue.svg)](LICENSE)
+[![CC-BY-SA-4.0](https://img.shields.io/badge/License-CC--BY--SA--4.0-blue.svg?longCache=true&style=for-the-badge)](LICENSE)
