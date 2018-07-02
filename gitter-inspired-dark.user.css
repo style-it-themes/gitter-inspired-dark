@@ -2,7 +2,7 @@
 @name         Gitter Inspired Dark
 @namespace    Style-it Themes
 @homepageURL  https://github.com/style-it-themes/gitter-inspired-dark
-@version      1.0.7
+@version      1.0.8
 @updateURL    https://raw.githubusercontent.com/style-it-themes/gitter-inspired-dark/master/gitter-inspired-dark.user.css
 @description  The *Gitter Inspired Dark* theme is a Gitter instant messaging service dark style,
 that refines styling throughout all elements and areas.
@@ -11,7 +11,7 @@ that refines styling throughout all elements and areas.
 ==/UserStyle== */
 @-moz-document domain("gitter.im") {
 	/*! Name    : Gitter Inspired Dark */
-	/*! Version : 1.0.7 beta */
+	/*! Version : 1.0.8 beta */
 	/*! Author  : Style-it Themes by: the-j0k3r */
 	/*! Repo    : https://github.com/style-it-themes/gitter-inspired-dark */
 	/*! License : CC-BY-SA-4.0 https://github.com/style-it-themes/gitter-inspired-dark/LICENSE */
@@ -246,7 +246,7 @@ that refines styling throughout all elements and areas.
 	}
 
 	.right-toolbar-region .right-toolbar {
-		background: #141414  !important;
+		background: #141414 !important;
 		border-color: #444 !important;
 		color: #ddd !important
 	}
@@ -955,7 +955,8 @@ that refines styling throughout all elements and areas.
 	}
 
 	.category-list__item--active, .topic-control__button--active,
-	.topic-header__category-link, .topic-reply-list-header__filter-button--active {
+	.topic-header__category-link,
+	.topic-reply-list-header__filter-button--active {
 		background-color: #888 !important;
 		color: #eee !important;
 	}
@@ -1012,18 +1013,6 @@ that refines styling throughout all elements and areas.
 		background-color: rgba(230, 230, 230, 0.7) !important;
 		border-color: rgba(230, 230, 230, 0.7) !important;
 	}
-
-	/*
-	.icon-watch-jaffa, .follow-button--unsubscribed::before {
-		stroke: #5c81ba !important;
-	}
-
-	.follow-button--subscribed, .follow-button--unsubscribed,
-	.topic-body__footer__action, .topic-body__footer__reaction-action,
-	.topic-body__footer__subscribe-action {
-		color: #5c81ba !important;
-	}
-	*/
 
 	select {
 		border: 1px solid #555 !important;
@@ -1196,14 +1185,6 @@ that refines styling throughout all elements and areas.
 		color: #5c81ba !important;
 		filter: brightness(130%) !important;
 	}
-
-	/* double check this entry
-	input, select, .uneditable-input {
-		 color: #ccc !important;
-		 border: 1px solid #555 !important;
-		 border-radius:3px !important;
-	}
-	*/
 }
 
 @-moz-document domain("gitter.im") {
@@ -1211,7 +1192,7 @@ that refines styling throughout all elements and areas.
 	/*! Author  : Style-it Themes by: the-j0k3r */
 	/*! Repo    : https://github.com/style-it-themes/gitter-inspired-dark */
 	/*! License : CC-BY-SA-4.0 https://github.com/style-it-themes/gitter-inspired-dark/LICENSE */
-	/*! Type    : Modal  and PopOver */
+	/*! Type    : Modal and PopOver */
 	i, cite, em, var, dfn {
 		color: #ccc !important;
 	}
@@ -1310,7 +1291,7 @@ that refines styling throughout all elements and areas.
 		background: #222 !important;
 	}
 
-	/* FOOTER BUTTONS  */
+	/* FOOTER BUTTONS */
 	.modal--default__footer__btn {
 		background-color: #5c81ba !important;
 		color: #eee !important;
@@ -1320,8 +1301,7 @@ that refines styling throughout all elements and areas.
 		filter: brightness(130%) !important;
 	}
 
-	.modal--default__footer__btn.disabled,
-	.modal--default__footer__btn[disabled] {
+	.modal--default__footer__btn.disabled, .modal--default__footer__btn[disabled] {
 		background-color: rgba(92, 129, 186, .7) !important;
 		border-color: rgba(92, 129, 186, .7) !important;
 		color: rgba(255, 255, 255, 0.6) !important;
@@ -1439,13 +1419,13 @@ that refines styling throughout all elements and areas.
 	}
 
 	.trpBtnGreen {
-		background-color: #163  !important;
+		background-color: #163 !important;
 		color: #eee !important;
 		border-bottom: none !important;
 	}
 
 	.trpBtnGreen:hover, .trpBtnGreen:focus {
-		background-color: #163  !important;
+		background-color: #163 !important;
 		color: #eee !important;
 		border-bottom: none !important;
 		filter: brightness(130%) !important;
@@ -1464,13 +1444,15 @@ that refines styling throughout all elements and areas.
 		filter: brightness(130%) !important;
 	}
 
-	.trpBtnLightGrey.open-profile, .trpBtnLightGrey {
+	.trpBtnLightGrey.open-profile,
+	.trpBtnLightGrey {
 		background-color: #aaa !important;
 		color: black !important;
 		border-bottom: none !important;
 	}
 
-	.trpBtnLightGrey.open-profile:hover, .trpBtnLightGrey:hover {
+	.trpBtnLightGrey.open-profile:hover,
+	.trpBtnLightGrey:hover {
 		background-color: #aaa !important;
 		color: black !important;
 		border-bottom: none !important;
@@ -1689,7 +1671,7 @@ that refines styling throughout all elements and areas.
 	.explore-header-info-bar__mobile-diagram,
 	.explore-header-info-bar__mobile-diagram i::before,
 	.explore-header-info-bar__mobile-diagram i::after {
-		background-color:  transparent !important;
+		background-color: transparent !important;
 	}
 
 	.explore-room-card-list-section {
@@ -1884,7 +1866,7 @@ that refines styling throughout all elements and areas.
 
 	.button-jaffa--small:hover, .button-jaffa--small:focus {
 		background-color: #f68d42 !important;
-		border-color:  #f68d42 !important;
+		border-color: #f68d42 !important;
 		filter: brightness(125%) !important;
 	}
 
@@ -1910,11 +1892,11 @@ that refines styling throughout all elements and areas.
 		color: #5c81ba !important;
 	}
 
-	#apps-panel  div p small a {
+	#apps-panel div p small a {
 		color: #5c81ba !important;
 	}
 
-	#apps-panel  div p small a:hover {
+	#apps-panel div p small a:hover {
 		filter: brightness(130%) !important;
 	}
 
@@ -1926,11 +1908,11 @@ that refines styling throughout all elements and areas.
 		 color: #aaa !important;
 	}
 
-	.welcome-modal__close {
+	.collection-header__dismiss-suggestion, .welcome-modal__close {
 		 opacity: .5 !important;
 	}
 
-	.welcome-modal__close:hover {
+	.collection-header__dismiss-suggestion:hover, .welcome-modal__close:hover {
 		 opacity: .7 !important;
 	}
 
