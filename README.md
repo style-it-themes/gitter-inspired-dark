@@ -20,7 +20,6 @@ that refines styling throughout all elements and areas.
 | ------------------------------ | ------------------ | ------------------ |
 | [Gitter IM](https://gitter.im) |                    | :heavy_check_mark: |
 
-
 :asterisk: Full coverage entails styled while using a free open source account,
 its not bug free, there possible are elements that were likely missed.
 
@@ -52,42 +51,42 @@ You will need to ideally:
 
 * [Fork](https://github.com/style-it-themes/gitter-inspired-dark/fork) the project.
 
-* Limit to the [K&R (KNF variation style)](https://en.wikipedia.org/wiki/Indentation_style#Variant:_BSD_KNF), and **1 TAB INDENTATION** (not more, and not less than 1 tab).
+* Limit to the [K&R (KNF variation style)](https://en.wikipedia.org/wiki/Indentation_style#Variant:_BSD_KNF), and **2 SPACE INDENTATION** (no tabs, and no less than 2 spaces).
 
-  * K&R - KNF Variation Example:
-	```css
-	element[attr='value'] {
-	-property: value;
-	}
-	```
+* K&R - KNF Variation Example:
+  ```css
+  element[attr='value'] {
+  ··property: value;
+  }
+  ```
 
-  * **Not Allman**
-	```css
-	element[property='value']
-	{
-	-property: value;
-	}
-	```
+* **Not Allman**
+  ```css
+  element[property='value']
+  {
+  ··property: value;
+  }
+  ```
 
-  * Strict space between the `selector` and the `{`:
-	```css
-	/* good */
-	element[attr='value'] { }
+* Strict space between the `selector` and the `{`:
+  ```css
+  /* good */
+  element[attr='value'] { }
 
-	/* bad */
-	element[attr='value']{ }
-	```
+  /* bad */
+  element[attr='value']{ }
+  ```
 
-  * 1 tab indentation
-	```css
-	/* good */
-	-property: value;
+* 2 Space indentation
+  ```css
+  /* good */
+  ··property: value;
 
-	/* bad */
-	····property: value;
-	----property: value;
-	·property: value;
-	```
+  /* bad */
+  ····property: value;
+  ----property: value;
+  ·property: value;
+  ```
 
 :asterisk: Try to wrap lines at around 80 characters.
 
