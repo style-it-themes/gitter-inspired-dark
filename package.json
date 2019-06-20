@@ -2,7 +2,7 @@
   "name": "gitter-inspired-dark",
   "title": "Gitter Inspired Dark",
   "description": "An inspired dark theme for Gitter and related websites.",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "repository": "style-it-themes/gitter-inspired-dark",
   "homepage": "https://github.com/style-it-themes/gitter-inspired-dark",
   "main": "gitter-inspired-dark.user.css",
