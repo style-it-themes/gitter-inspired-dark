@@ -3,31 +3,36 @@
   "title": "Gitter Inspired Dark",
   "description": "An inspired dark theme for Gitter and related websites.",
   "version": "1.1.2",
+  "author": "Style-it themes",
   "repository": "style-it-themes/gitter-inspired-dark",
   "homepage": "https://github.com/style-it-themes/gitter-inspired-dark",
+  "bugs": {
+    "url": "https://github.com/style-it-themes/gitter-inspired-dark/issues"
+  },
   "main": "gitter-inspired-dark.user.css",
   "license": "CC-BY-SA-4.0",
   "engines": {
     "node": ">=10"
   },
   "devDependencies": {
-    "eslint": "^5.16.0",
-    "eslint-config-silverwind": "^3.0.3",
+    "eslint": "^6.4.0",
+    "eslint-config-silverwind": "^4.1.2",
     "perfectionist": "^2.4.0",
-    "stylelint": "^10.1.0",
-    "stylelint-config-standard": "^18.3.0",
-    "updates": "^8.1.0",
-    "ver": "^5.0.1"
+    "stylelint": "^11.0.0",
+    "stylelint-config-standard": "^19.0.0",
+    "updates": "^9.0.0",
+    "ver": "^5.1.4"
   },
   "scripts": {
-    "clean": "npm run perfectionist && node tools/fix-perfectionist.js && npm run lint",
+    "clean": "npm run lintfix && npm run perfectionist && node tools/fix-perfectionist.js",
     "eslint": "eslint --quiet --color tools/*.js",
     "lint": "npm run eslint && npm run stylelint",
     "patch": "npx ver -p patch *.css *.user.css",
     "minor": "npx ver -p minor *.css *.user.css",
     "major": "npx ver -p major *.css *.user.css",
     "perfectionist": "npx perfectionist gitter-inspired-dark.user.css gitter-inspired-dark.user.css --indentSize 2 --maxAtRuleLength 250",
-    "stylelint": "npx stylelint --quiet --color --fix -- gitter-inspired-dark.user.css",
+    "stylelint": "npx stylelint --quiet --color -- gitter-inspired-dark.user.css",
+    "lintfix": "npx stylelint --quiet --color --fix -- gitter-inspired-dark.user.css",
     "test": "npm run eslint && npm run stylelint",
     "update": "npx updates -cu && npm install"
   }
