@@ -37,7 +37,7 @@ that refines styling throughout all elements and areas.
   .room-menu-options__item--header-spacer {
     background-color: #191919 !important;
   }
-  .room-menu-options__item--header-spacer:after {
+  .room-menu-options__item--header-spacer::after {
     background-color: #191919 !important;
     border-right: 1px solid #191919 !important;
   }
@@ -48,7 +48,7 @@ that refines styling throughout all elements and areas.
   .header-brand-container {
     background-color: #191919 !important;
   }
-  .header-brand-container:after {
+  .header-brand-container::after {
     background-color: #212121 !important;
   }
   .chat-header__favourite.favourite i {
@@ -58,7 +58,7 @@ that refines styling throughout all elements and areas.
     stroke: #aeaeae !important;
     fill: #aeaeae !important;
   }
-  .favourite-collection.dragging-all:before {
+  .favourite-collection.dragging-all::before {
     background-color: #353433 !important;
   }
   .room-menu-options__item__community-create-icon {
@@ -453,11 +453,11 @@ that refines styling throughout all elements and areas.
   .icon-button-like, .icon-button-comment, .icon-button-watch, .icon-edit {
     color: #ccc !important;
   }
-  .icon-button-like:after, .icon-button-comment:after, .icon-button-watch:after,
-  .icon-button-edit:after {
+  .icon-button-like::after, .icon-button-comment::after, .icon-button-watch::after,
+  .icon-button-edit::after {
     filter: grayscale(100%) !important;
   }
-  .icon-edit-selected, .icon-button-edit:hover:after {
+  .icon-edit-selected, .icon-button-edit:hover::after {
     filter: brightness(145%) !important;
   }
   .panel--reply-editor {
@@ -565,7 +565,7 @@ that refines styling throughout all elements and areas.
     background: #5c81ba !important;
     color: #222 !important;
   }
-  .room-item--favourite:before {
+  .room-item--favourite::before {
     top: 1rem !important;
     color: #f1c40f !important;
     opacity: 1 !important;
@@ -662,7 +662,7 @@ that refines styling throughout all elements and areas.
     border-radius: 4px !important;
     color: #ccc !important;
   }
-  .left-menu-search:after {
+  .left-menu-search::after {
     background-color: rgba(255, 255, 255, .3) !important;
   }
   .community-creation-slug-input {
@@ -758,7 +758,7 @@ that refines styling throughout all elements and areas.
   .category-list__item:hover, .category-list__item:focus {
     background-color: #444 !important;
   }
-  .table-control__select--decal:after {
+  .table-control__select--decal::after {
     color: #aaa !important;
   }
   .panel--forum-follow-area {
@@ -1268,31 +1268,31 @@ that refines styling throughout all elements and areas.
     background-color: #222 !important;
     border-bottom: 1px solid #555 !important;
   }
-  .popover .arrow, .popover .arrow:after {
+  .popover .arrow, .popover .arrow::after {
     border-color: transparent !important;
   }
   .popover.top .arrow {
     border-top-color: #777 !important;
   }
-  .popover.top .arrow:after {
+  .popover.top .arrow::after {
     border-top-color: #222 !important;
   }
   .popover.right .arrow {
     border-right-color: #777 !important;
   }
-  .popover.right .arrow:after {
+  .popover.right .arrow::after {
     border-right-color: #191919 !important;
   }
   .popover.bottom .arrow {
     border-bottom-color: #777 !important;
   }
-  .popover.bottom .arrow:after {
+  .popover.bottom .arrow::after {
     border-bottom-color: #222 !important;
   }
   .popover.left .arrow {
     border-left-color: #777 !important;
   }
-  .popover.left .arrow:after {
+  .popover.left .arrow::after {
     border-left-color: #191919 !important;
   }
 	.popover-item__action:hover {
@@ -1346,8 +1346,8 @@ that refines styling throughout all elements and areas.
     background-color: #222 !important;
   }
   .explore-header-info-bar__mobile-diagram,
-  .explore-header-info-bar__mobile-diagram i:before,
-  .explore-header-info-bar__mobile-diagram i:after {
+  .explore-header-info-bar__mobile-diagram i::before,
+  .explore-header-info-bar__mobile-diagram i::after {
     background-color: transparent !important;
   }
   .explore-room-card-list-section {
@@ -1449,7 +1449,7 @@ that refines styling throughout all elements and areas.
     background: #222 !important;
     color: #ddd !important;
   }
-  .msg span:after {
+  .msg span::after {
     border-left: 6px solid transparent !important;
     border-right: 6px solid transparent !important;
     border-top: 6px solid #222 !important;
@@ -1490,7 +1490,7 @@ that refines styling throughout all elements and areas.
   #testimonials-panel .quotes {
     background: #222 !important;
   }
-  .trusted-by-list, #testimonials-panel .quotes:before {
+  .trusted-by-list, #testimonials-panel .quotes::before {
     filter: invert(90%) hue-rotate(180deg) !important;
   }
   .button-jaffa--small {
@@ -1502,7 +1502,7 @@ that refines styling throughout all elements and areas.
     border-color: #f68d42 !important;
     filter: brightness(125%) !important;
   }
-  h1:after, h2:after {
+  h1::after, h2::after {
     background: currentColor !important;
     opacity: .5 !important;
   }
@@ -1638,7 +1638,7 @@ that refines styling throughout all elements and areas.
     color: #888 !important;
     background: #282828 !important;
   }
-  body .gist .blob-num:before {
+  body .gist .blob-num::before {
     padding-left: 5px !important;
   }
   body .gist .blob-num:hover {
