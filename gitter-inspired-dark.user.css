@@ -31,6 +31,9 @@ that refines styling throughout all elements and areas.
   a {
     color: #eee !important;
   }
+  .list-item-name {
+    color: #aaa !important;
+   }
   .chat-item code, .topic-body__content code {
     background-color: #141414 !important;
   }
@@ -44,6 +47,12 @@ that refines styling throughout all elements and areas.
   .room-menu-options__item__unread-indicator,
   .room-menu-options__item__unread-indicator.has-mentions {
     border: 2px solid #777 !important;
+  }
+  .header-minibar {
+    background-color: #191919 !important;
+  }
+  .header-main-menu {
+    background-color: #191919 !important;
   }
   .header-brand-container {
     background-color: #191919 !important;
@@ -513,7 +522,9 @@ that refines styling throughout all elements and areas.
     color: #ed1965 !important;
   }
   .dropdown__divider, .body-main-menu {
-    border: 1px solid #555 !important;
+    border-left: 1px solid #555 !important;
+    border-right: 1px solid #555 !important;
+    background-color: #141414 !important;
   }
   div.textcomplete-wrapper ul.dropdown-menu li > a:hover {
     color: #eee !important;
