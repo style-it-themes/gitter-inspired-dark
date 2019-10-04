@@ -33,7 +33,7 @@ that refines styling throughout all elements and areas.
   }
   .list-item-name {
     color: #aaa !important;
-   }
+  }
   .chat-item code, .topic-body__content code {
     background-color: #141414 !important;
   }
