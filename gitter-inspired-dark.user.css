@@ -48,13 +48,7 @@ that refines styling throughout all elements and areas.
   .room-menu-options__item__unread-indicator.has-mentions {
     border: 2px solid #777 !important;
   }
-  .header-minibar {
-    background-color: #191919 !important;
-  }
-  .header-main-menu {
-    background-color: #191919 !important;
-  }
-  .header-brand-container {
+  .header-minibar, .header-main-menu, .header-brand-container {
     background-color: #191919 !important;
   }
   .header-brand-container::after {
