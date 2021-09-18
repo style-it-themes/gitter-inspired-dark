@@ -21,15 +21,15 @@
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^22.0.0",
     "updates": "^12.2.0",
-    "ver": "^6.0.2"
+    "versions": "^9.0.0"
   },
   "scripts": {
     "clean": "npm run lintfix && npm run perfectionist && node tools/fix-perfectionist.js",
     "eslint": "eslint --quiet --color tools/*.js",
     "lint": "npm run eslint && npm run stylelint",
-    "patch": "npx ver -p patch *.css *.user.css",
-    "minor": "npx ver -p minor *.css *.user.css",
-    "major": "npx ver -p major *.css *.user.css",
+    "patch": "npx versions -p -C patch *.css *.user.css",
+    "minor": "npx versions -p -C minor *.css *.user.css",
+    "major": "npx versions -p -C major *.css *.user.css",
     "perfectionist": "npx perfectionist gitter-inspired-dark.user.css gitter-inspired-dark.user.css --indentSize 2 --maxAtRuleLength 250",
     "stylelint": "npx stylelint --quiet --color -- gitter-inspired-dark.user.css",
     "lintfix": "npx stylelint --quiet --color --fix -- gitter-inspired-dark.user.css",
